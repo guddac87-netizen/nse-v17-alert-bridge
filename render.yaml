@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: nse-v17-alert-bridge
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: ALERT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production

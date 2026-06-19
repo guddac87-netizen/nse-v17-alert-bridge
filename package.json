@@ -1,0 +1,16 @@
+{
+  "name": "nse-v17-tradingview-alert-bridge",
+  "version": "17.0.0",
+  "description": "NSE Mobile Swing Scanner V17 Online TradingView Alert Bridge with loud alarm, browser notifications, Telegram and optional Twilio phone-call alerts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "cors": "^2.8.5"
+  }
+}
