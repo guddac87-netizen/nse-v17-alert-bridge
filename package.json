@@ -1,16 +1,9 @@
 {
-  "name": "nse-v17-alert-bridge-mobile-easy",
+  "name": "daivik-swing",
   "version": "1.0.0",
-  "description": "NSE V17 TradingView Alert Bridge - mobile easy GitHub package",
+  "description": "NSE swing trading research desk with Upstox market data, scan scoring and backtesting",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "cors": "latest",
-    "express": "latest"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+  "scripts": {"start":"node server.js","test":"node --check server.js"},
+  "dependencies": {"express":"^4.21.2"},
+  "engines": {"node":">=20"}
 }
