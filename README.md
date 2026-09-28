@@ -1,17 +1,9 @@
-# NSE V17 TradingView Alert Bridge - Mobile Easy
+# Daivik Swing
 
-Upload only these root files to GitHub:
-- server.js
-- package.json
-- render.yaml
-- README.md
+Personal NSE equity swing-trading research desk.
 
-No public folder upload needed.
+Build 1 includes Upstox live-data gating, NSE watchlist scanning, EMA/RSI/ATR/breakout/volume/momentum scoring, NIFTY market-regime filtering, sector-relative momentum, entry/no-chase/stop/targets, 15/20/30-day review horizons without forced exits, manual holdings, historical backtesting, CSV decision history and Smart Learner diagnostics.
 
-Render settings:
-- Build Command: npm install
-- Start Command: npm start
-- Environment Variable: ALERT_SECRET = your private secret
+Required server environment: UPSTOX_ACCESS_TOKEN.
 
-Webhook format after Render deploy:
-https://YOUR-APP.onrender.com/webhook?secret=YOUR_SECRET
+The app never places orders and does not show fictional recommendations when live data is unavailable.
