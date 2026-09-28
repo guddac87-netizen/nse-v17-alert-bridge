@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: nse-v17-alert-bridge
+    name: daivik-swing
     env: node
+    plan: free
+    region: singapore
+    branch: daivik-swing
     buildCommand: npm install
     startCommand: npm start
-    envVars:
-      - key: ALERT_SECRET
-        value: change-me
